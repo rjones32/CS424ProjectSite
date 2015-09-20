@@ -1,0 +1,66 @@
+#container,
+#chart,
+#chart1,
+#chart2,
+#chart3,
+#map,
+#menu-bar,
+#mapSelectors,
+#mapSelectors select,
+#mapSelectors select option,
+#eventSelectors,
+#eventSelectors select,
+#eventSelectors select option,
+
+
+
+
+#map{
+    margin: 10px 0px;
+    z-index: 9;
+
+}
+
+#mapSelectors > select{
+    margin: -5px 0px;
+    height:20px;
+    width:100px;
+}
+
+#eventSelectors > select{
+    margin: -5px 0px;
+    height:20px;
+    width:100px;
+}
+
+#chart{
+    float: left;
+    /*background-color: #105cb6;*/
+
+}
+#chart1{
+    float: left;
+    /*background-color: #F5F5DC;*/
+}
+
+#chart2{
+    float:left;
+    /*background-color: #f8f8f8;*/
+}
+#chart3{
+    float:left;
+}
+
+.axis text{
+    font: 10px sans-serif;
+
+}
+
+.axis line,
+.axis path{
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+
+}
+
